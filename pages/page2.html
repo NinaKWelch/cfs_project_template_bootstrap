@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<<<<<<< HEAD
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Template 2</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+    >
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <!-- Nav -->
+        <nav class="navbar2 navbar fixed-top navbar-expand-md navbar-dark">
+        <!-- Brand -->
+        <a class="brand2 navbar-brand" href="#"><h1>Name</h1></a>
+
+        <!-- Toggle Navigation button -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Toggle Navigation -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Template 1</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="./page2.html">
+                        Template 2 <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./page3.html">Template 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+        <section class="hero2">
+            <!-- Dark scrim over background video -->
+            <div class="overlay"></div>
+
+            <!-- Background video -->
+            <video playsinline autoplay muted loop>
+                <source
+                    src="https://res.cloudinary.com/ninaw/video/upload/v1589137158/coverr-girl-in-the-shopping-mall_rx9f37.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <!-- Hero message -->
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h2 class="display-3">Heading Title</h2>
+
+                        <p class="lead pb-2">Donec euismod sit amet ipsum at tristique.</p>
+
+                        <!-- Call To Action button -->
+                        <button onclick="callToAction()" class="btn btn-lg btn-secondary">Click Me</button>
+                    </div>
+                </div>
+            </div><!-- end of Hero message -->
+        </section><!-- end of Hero -->
+
+        <!-- Shop -->
+        <section class="shop2 mx-auto mb-5">
+            <h3 class="py-5">Shop</h3>
+            
+            <!-- Cards -->
+            <div class="row">
+                <!-- Card -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <!-- Clickable card -->
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="http://placehold.it/400x400" alt="">
+
+                            <!-- Card text -->
+                            <div class="card-body">
+                                <h4 class="card-title">Item One</h4>
+                            
+                                <p class="card-text pb-4">
+                                    Duis condimentum cursus pellentesque. Aenean aliquet ligula sem, 
+                                    a congue mi scelerisque id.
+                                </p>        
+                            </div><!-- end of Card text -->
+                        </a><!-- end of Clickable card -->
+
+                        <!-- Like button -->
+                        <div class="card-footer2 p-2">
+                            <button type="button" class="btn like2 fas fa-heart" aria-label="Like"></button>
+                        </div><!-- end of Like button -->
+                    </div>
+                </div><!-- end of Card -->
+
+                <!-- Card -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <!-- Clickable card -->
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="http://placehold.it/400x400" alt="">
+
+                            <!-- Card text -->
+                            <div class="card-body">
+                                <h4 class="card-title">Item Two</h4>
+                            
+                                <p class="card-text pb-4">
+                                    Nam auctor sollicitudin augue, eu malesuada erat gravida sed. 
+                                </p>        
+                            </div><!-- end of Card text -->
+                        </a><!-- end of Clickable card -->
+
+                        <!-- Like button -->
+                        <div class="card-footer2 p-2">
+                            <button type="button" class="btn like2 fas fa-heart" aria-label="Like"></button>
+                        </div><!-- end of Like button -->
+                    </div>
+                </div><!-- end of Card -->
+
+                <!-- Card -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <!-- Clickable card -->
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="http://placehold.it/400x400" alt="">
+
+                            <!-- Card text -->
+                            <div class="card-body">
+                                <h4 class="card-title">Item Three</h4>
+                            
+                                <p class="card-text pb-4">
+                                    Integer id mauris sit amet neque egestas congue eget at ipsum. 
+                                    Nullam ullamcorper elit eu lacus imperdiet.
+                                </p>        
+                            </div><!-- end of Card text -->
+                        </a><!-- end of Clickable card -->
+
+                        <!-- Like button -->
+                        <div class="card-footer2 p-2">
+                            <button type="button" class="btn like2 fas fa-heart" aria-label="Like"></button>
+                        </div><!-- end of Like button -->
+                    </div>
+                </div><!-- end of Card -->
+
+                <!-- Card -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <!-- Clickable card -->
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="http://placehold.it/400x400" alt="">
+
+                            <!-- Card text -->
+                            <div class="card-body">
+                                <h4 class="card-title">Item Four</h4>
+                            
+                                <p class="card-text pb-4">
+                                    Vestibulum porttitor sagittis neque vel gravida.   
+                                </p>        
+                            </div><!-- end of Card text -->
+                        </a><!-- end of Clickable card -->
+
+                        <!-- Like button -->
+                        <div class="card-footer2 p-2">
+                            <button type="button" class="btn like2 fas fa-heart" aria-label="Like"></button>
+                        </div><!-- end of Like button -->
+                    </div>
+                </div><!-- end of Card -->
+
+                <!-- Card -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <!-- Clickable card -->
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="http://placehold.it/400x400" alt="">
+
+                            <!-- Card text -->
+                            <div class="card-body">
+                                <h4 class="card-title">Item Five</h4>
+                            
+                                <p class="card-text pb-4">
+                                    Nunc dapibus mi mattis nibh malesuada, 
+                                    vitae dapibus turpis placerat.   
+                                </p>        
+                            </div><!-- end of Card text -->
+                        </a><!-- end of Clickable card -->
+
+                        <!-- Like button -->
+                        <div class="card-footer2 p-2">
+                            <button type="button" class="btn like2 fas fa-heart" aria-label="Like"></button>
+                        </div><!-- end of Like button -->
+                    </div>
+                </div><!-- end of Card -->
+
+                <!-- Card -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <!-- Clickable card -->
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="http://placehold.it/400x400" alt="">
+
+                            <!-- Card text -->
+                            <div class="card-body">
+                                <h4 class="card-title">Item Six</h4>
+                            
+                                <p class="card-text pb-4">
+                                    Nulla accumsan vitae lectus vitae condimentum. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+                                </p>        
+                            </div><!-- end of Card text -->
+                        </a><!-- end of Clickable card -->
+
+                        <!-- Like button -->
+                        <div class="card-footer2 p-2">
+                            <button type="button" class="btn like2 fas fa-heart" aria-label="Like"></button>
+                        </div><!-- end of Like button -->
+                    </div>
+                </div><!-- end of Card -->
+            </div><!-- end of Cards -->
+        </section><!-- Shop -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary py-5 text-center">
+        <a href="./styleguide.html" class="text-white">Styleguide</a>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="../js/template2.js"></script>
+=======
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project Template</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" crossorigin>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <header>
+    <!-- Nav -->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- main content -->
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!-- footer content -->
+  </footer>
+>>>>>>> 2033c2e8406321de1b68e64e865251dc792dcf44
+</body>
+
+</html>
